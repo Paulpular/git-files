@@ -96,6 +96,7 @@ img {
 }
 
 .exp {
+    font-size: 14px;
     color: hsl(0, 100%, 67%);
     padding-left: 5px;
 }
@@ -121,6 +122,7 @@ img {
 }
 
 .exp1 {
+    font-size: 14px;
     color: hsl(39, 100%, 56%);
     padding-left: 5px;
 }
@@ -146,6 +148,7 @@ img {
 }
 
 .exp2 {
+    font-size: 14px;
     color: hsl(166, 100%, 37%);
     padding-left: 5px;
 }
@@ -171,6 +174,7 @@ img {
 }
 
 .exp3 {
+    font-size: 14px;
     color: hsl(234, 85%, 45%);
     padding-left: 5px;
 }
