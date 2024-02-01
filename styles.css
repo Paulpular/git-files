@@ -10,7 +10,7 @@ body {
 }
 
 .Parent_container {
-    margin: 12% auto;
+    margin: 10% auto;
     display: flex;
     width: 43%;
 }
@@ -33,11 +33,6 @@ h2 {
     font-size: 50px;
 }
 
-p {
-    color: hsl(241, 100%, 89%);
-    font-size: 12px;
-}
-
 .circle {
     margin: 10% auto;
     padding-left: 20px;
@@ -50,6 +45,11 @@ p {
     height: 120px;
 }
 
+p {
+    color: hsl(241, 100%, 89%);
+    font-size: 12px;
+}
+
 h3 {
     font-size: 20px;
     color: white;
@@ -59,6 +59,10 @@ h3 {
 .paragraph {
     padding-top: 10px;
     padding-bottom: 40px;
+    width: 60%;
+    margin: 0 auto;
+    color: hsl(241, 100%, 89%);
+    font-size: 12px;
 }
 
 .Second_Decendant {
@@ -83,11 +87,10 @@ img {
     margin: auto;
 }
 
-.one {
+.general {
     display: flex;
     justify-content: space-between;
     padding: 11px 11px;
-    background: hsl(0, 75%, 97%);
     margin-left: 18px;
     margin-right: 18px;
     margin-bottom: 10px;
@@ -95,119 +98,70 @@ img {
     width: 85%;
 }
 
-.exp {
+.one {
+    background: hsl(0, 75%, 97%);
+}
+
+.reaction {
+    display: flex;
     font-size: 14px;
     color: hsl(0, 100%, 67%);
     padding-left: 5px;
 }
 
-.r {
-    display: flex;
-}
-
-.f {
-    display: flex;
-}
-
 .two {
-    display: flex;
-    justify-content: space-between;
-    padding: 11px 11px;
     background: hsl(40, 90%, 96%);
-    margin-left: 18px;
-    margin-right: 18px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    width: 85%;
 }
 
-.exp1 {
+.memory {
     font-size: 14px;
     color: hsl(39, 100%, 56%);
     padding-left: 5px;
 }
 
-.m {
-    display: flex;
-}
-
-.f1 {
-    display: flex;
-}
-
 .three {
-    display: flex;
-    justify-content: space-between;
-    padding: 11px 11px;
     background: hsl(162, 62%, 96%);
-    margin-left: 18px;
-    margin-right: 18px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    width: 85%;
 }
 
-.exp2 {
+.verbal {
     font-size: 14px;
     color: hsl(166, 100%, 37%);
     padding-left: 5px;
 }
 
-.v {
-    display: flex;
-}
-
-.f2 {
-    display: flex;
-}
-
 .four {
-    display: flex;
-    justify-content: space-between;
-    padding: 11px 11px;
     background: hsl(233, 73%, 96%);
-    margin-left: 18px;
-    margin-right: 18px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    width: 85%;
 }
 
-.exp3 {
+.visual {
     font-size: 14px;
     color: hsl(234, 85%, 45%);
     padding-left: 5px;
 }
 
-.vi {
-    display: flex;
-}
-
-.f3 {
-    display: flex;
-}
-
-.fig, .fig1, .fig2, .fig3 {
+.fig {
     font-size: 14px;
     padding-right: 5px;
     color: hsl(224, 30%, 27%);
 }
 
-.fade, .fade1, .fade2, .fade3 {
+.fade {
     font-size: 14px;
     padding: auto;
     color: hsl(240, 0%, 55%);
 }
 
-.five {
-    padding: 11px;
-    background: hsl(224, 30%, 27%);
-    margin: 28PX auto;
-    border-radius: 20px;
-    width: 85%;
-}
-
 a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
+    padding: 10px 0;
+    background: hsl(224, 30%, 27%);
+    margin: 25px auto;
+    border-radius: 20px;
+    width: 85%;
+    display: block;
+}
+
+a:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
 }
