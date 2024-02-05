@@ -10,14 +10,15 @@ body {
 }
 
 .Parent_container {
-    margin: 10% auto;
     display: flex;
-    width: 43%;
+    justify-content: center;
+    margin: 10% auto;
+    width: 100%;
 }
 
 .First_Decendant {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    width: 50%;
+    width: 20%;
     border-radius: 6%;
 }
 
@@ -66,7 +67,7 @@ h3 {
 }
 
 .Second_Decendant {
-    width: 50%;
+    width: 20%;
     background: hsl(0, 0%, 100%);
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
@@ -156,7 +157,7 @@ a {
     color: hsl(0, 0%, 100%);
     padding: 10px 0;
     background: hsl(224, 30%, 27%);
-    margin: 25px auto;
+    margin: 25px 0 0 20px;
     border-radius: 20px;
     width: 85%;
     display: block;
@@ -164,4 +165,33 @@ a {
 
 a:hover {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+}
+
+@media screen and (max-width: 990px) {
+    .First_Decendant {
+        width: 30%;
+    }
+
+    .Second_Decendant {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .Parent_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .First_Decendant {
+        width: 100%;
+    }
+
+    .Second_Decendant {
+        width: 100%;
+    }
+
+    a {
+        margin: 15px;
+    }
 }
